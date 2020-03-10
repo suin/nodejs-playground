@@ -1,0 +1,5 @@
+const {workerData} = require('worker_threads')
+const {highLoadTask} = require('./highLoadTask')
+console.time(workerData)
+highLoadTask()
+console.timeEnd(workerData)

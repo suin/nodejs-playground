@@ -1,0 +1,11 @@
+{
+  "name": "worker-threads",
+  "version": "1.0.0",
+  "main": "01-simple/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=11.7.0"
+  },
+  "engineStrict": true,
+  "dependencies": {}
+}
