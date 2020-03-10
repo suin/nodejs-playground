@@ -13,3 +13,7 @@ My research related to Node.js.
     * [Multi-thread code](./worker-threads/06-cpu-intesive-job-with-worker)
 
 All the research result was reported in my blog post: [Node.js: CPU負荷で3秒かかっていた処理を「Worker Threads」で1秒に時短する - Qiita](https://qiita.com/suin/items/bce351c812603d413841).
+
+* [What will happen if an error occurs in the worker?](./worker-threads/07-error-thrown-in-worker)
+* [Does the worker-side-error kill the main thread?](./worker-threads/08-error-thrown-in-worker) - Yes.
+* [How can I handle the worker-side-error in the main thread?](./worker-threads/09-main-thread-side-error-handing)
