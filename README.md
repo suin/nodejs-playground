@@ -19,3 +19,9 @@ All the research result was reported in my blog post: [Node.js: CPU負荷で3秒
 * [How can I handle the worker-side-error in the main thread?](./worker-threads/09-main-thread-side-error-handing)
 
 The above research result has been explained on my blog post: [Node.jsのWorker Threadsは、Workerが例外を投げるとメインスレッドも落ちるので注意 - Qiita](https://qiita.com/suin/items/62e505d9b0d21b0a7911).
+
+* [How to pass data from a main thread to a worker.](./worker-threads/10-how-to-send-data-to-worker-from-main-thread)
+* [How to pass data from a worker to a main thread.](./worker-threads/11-how-to-send-data-to-main-thread-from-worker)
+* [How to pass data from a worker to another worker.](./worker-threads/12-how-to-send-data-to-worker-from-worker)
+
+The above research result has been explained on my blog post: [Node.js Worker Threads: スレッド間でデータを送受信する方法 - Qiita](https://qiita.com/suin/items/8fb7f77dd0a994b6f524)
