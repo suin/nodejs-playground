@@ -23,5 +23,6 @@ The above research result has been explained on my blog post: [Node.jsのWorker 
 * [How to pass data from a main thread to a worker.](./worker-threads/10-how-to-send-data-to-worker-from-main-thread)
 * [How to pass data from a worker to a main thread.](./worker-threads/11-how-to-send-data-to-main-thread-from-worker)
 * [How to pass data from a worker to another worker.](./worker-threads/12-how-to-send-data-to-worker-from-worker)
+* [How to pass data across workers via `MessageChannel`.](./worker-threads/13-worker-to-worker-communication-with-MessagePort)
 
 The above research result has been explained on my blog post: [Node.js Worker Threads: スレッド間でデータを送受信する方法 - Qiita](https://qiita.com/suin/items/8fb7f77dd0a994b6f524)
