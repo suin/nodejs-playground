@@ -17,3 +17,5 @@ All the research result was reported in my blog post: [Node.js: CPU負荷で3秒
 * [What will happen if an error occurs in the worker?](./worker-threads/07-error-thrown-in-worker)
 * [Does the worker-side-error kill the main thread?](./worker-threads/08-error-thrown-in-worker) - Yes.
 * [How can I handle the worker-side-error in the main thread?](./worker-threads/09-main-thread-side-error-handing)
+
+The above research result has been explained on my blog post: [Node.jsのWorker Threadsは、Workerが例外を投げるとメインスレッドも落ちるので注意 - Qiita](https://qiita.com/suin/items/62e505d9b0d21b0a7911).
