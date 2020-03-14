@@ -28,3 +28,7 @@ The above research result has been explained on my blog post: [Node.jsのWorker 
 The above research result has been explained on my blog post: [Node.js Worker Threads: スレッド間でデータを送受信する方法 - Qiita](https://qiita.com/suin/items/8fb7f77dd0a994b6f524)
 
 * [Benchmark of message passing const: child_process vs worker_threads.](./worker-threads/14-message-passing-cost)
+
+The above research result has been explained on my blog post: [Node.js: worker_threadsのスレッド間通信は、child_processのプロセス間通信の2〜11倍速い。 - Qiita](https://qiita.com/suin/items/bc79e1ced0dbb70c0a11)
+
+* [How many threads can be created?](./worker-threads/15-many-many-workers)
