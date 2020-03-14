@@ -1,0 +1,23 @@
+{
+  "name": "class-fields",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "scripts": {
+    "start": "yarn build && yarn benchmark",
+    "build": "yarn build:es2020 && yarn build:esnext",
+    "build:es2020": "tsc --target ES2020 --outDir dist/es2020",
+    "build:esnext": "tsc --target ESNEXT --outDir dist/esnext",
+    "clean": "rm -rf dist",
+    "benchmark": "yarn benchmark:es2020 && yarn benchmark:esnext",
+    "benchmark:es2020": "node benchmark.js es2020 1 1000000",
+    "benchmark:esnext": "node benchmark.js esnext 1 1000000"
+  },
+  "dependencies": {
+    "typescript": "^3.8.3"
+  }
+}
