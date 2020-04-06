@@ -1,0 +1,15 @@
+{
+  "name": "16-with-ts-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "start:dev": "ts-node-dev src/main.ts"
+  },
+  "dependencies": {
+    "@types/node": "^13.11.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
