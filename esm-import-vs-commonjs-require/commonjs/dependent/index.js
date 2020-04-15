@@ -1,0 +1,5 @@
+const { a } = require('dependency')
+const { b } = require('dependency/b')
+const { c } = require('dependency/c')
+const { d } = require('dependency/c/d')
+console.log([a, b, c, d])
