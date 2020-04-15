@@ -282,3 +282,5 @@ tags
 .history
 
 # End of https://www.gitignore.io/api/vim,node,emacs,intellij,visualstudiocode
+### Project Specific ###
+/*/lib/
