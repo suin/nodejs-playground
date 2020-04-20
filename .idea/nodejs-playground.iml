@@ -2,7 +2,16 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/child-process-killing" />
+      <excludeFolder url="file://$MODULE_DIR$/class-fields" />
+      <excludeFolder url="file://$MODULE_DIR$/dynamic-import" />
+      <excludeFolder url="file://$MODULE_DIR$/esm-export-default" />
+      <excludeFolder url="file://$MODULE_DIR$/esm-import-vs-commonjs-require" />
+      <excludeFolder url="file://$MODULE_DIR$/random-strings" />
+      <excludeFolder url="file://$MODULE_DIR$/trimIndent" />
+      <excludeFolder url="file://$MODULE_DIR$/worker-threads" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

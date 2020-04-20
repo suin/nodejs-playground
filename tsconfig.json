@@ -1,3 +1,31 @@
 {
-  "exclude": ["tsconfig.settings.json"]
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "SHOULD_BE_OVERWRITE",
+    // Basic Options
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "newLine": "LF",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    // Source Map
+    "sourceMap": true,
+    "inlineSources": true,
+    "strict": true,
+    "target": "es2019",
+    // skipLibCheck is a temporary solution for https://github.com/typeorm/typeorm/issues/3194
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.proxy"
+    ]
+  }
 }
