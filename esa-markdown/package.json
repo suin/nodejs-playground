@@ -1,0 +1,35 @@
+{
+  "name": "esa-markdown",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "emoji-datasource-apple": "^5.0.1",
+    "mdast-util-to-hast": "^9.0.1",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/hast": "^2.3.1",
+    "@types/prismjs": "^1.16.0",
+    "axios": "^0.19.2",
+    "emoji-js": "^3.5.0",
+    "hast-util-to-html": "^7.1.1",
+    "hastscript": "^5.1.2",
+    "prismjs": "^1.20.0",
+    "rehype-format": "^3.0.1",
+    "rehype-parse": "^6.0.2",
+    "rehype-retext": "^2.0.4",
+    "rehype-stringify": "^7.0.0",
+    "remark-code-titles": "^0.1.1",
+    "remark-footnotes": "^1.0.0",
+    "remark-html": "^11.0.1",
+    "remark-parse": "^8.0.2",
+    "remark-rehype": "^6.0.0",
+    "unified": "^9.0.0",
+    "unified-stream": "^1.0.6",
+    "unist-builder": "^2.0.3",
+    "unist-util-visit": "^2.0.2"
+  }
+}
