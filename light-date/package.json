@@ -1,0 +1,15 @@
+{
+  "name": "light-date",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "light-date": "^1.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  },
+  "scripts": {
+    "start": "npx tsc && node ."
+  }
+}
