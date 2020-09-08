@@ -1,0 +1,19 @@
+importers:
+  packages/module-a:
+    dependencies:
+      '@suin/is-object': 1.1.3
+    specifiers:
+      '@suin/is-object': ^1.1.3
+  packages/module-b:
+    dependencies:
+      '@suin/is-object': 1.1.3
+      '@suin/module-a': 'link:../module-a'
+    specifiers:
+      '@suin/is-object': ^1.1.3
+      '@suin/module-a': 'workspace:^1.0.0'
+lockfileVersion: 5.1
+packages:
+  /@suin/is-object/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha512-LjFRRRiKwYJkEpJqUaNVvHe2zMFT/lACh2gGgDDASMHc4zGKXrr+Ch33SJbejeuRkUJmBOkzLdWbIFr9XnJcVQ==

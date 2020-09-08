@@ -1,0 +1,16 @@
+{
+  "name": "@suin/module-b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo module-b",
+    "custom": "echo module-b"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@suin/is-object": "^1.1.3",
+    "@suin/module-a": "workspace:^1.0.0"
+  }
+}

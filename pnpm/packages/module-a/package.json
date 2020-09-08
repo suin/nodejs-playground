@@ -1,0 +1,15 @@
+{
+  "name": "@suin/module-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo module-a",
+    "custom": "echo module-a"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@suin/is-object": "^1.1.3"
+  }
+}

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" inherit-compiler-output="true">
-    <exclude-output />
+  <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/child-process-killing" />
       <excludeFolder url="file://$MODULE_DIR$/class-fields" />
@@ -10,6 +9,7 @@
       <excludeFolder url="file://$MODULE_DIR$/esm-import-vs-commonjs-require" />
       <excludeFolder url="file://$MODULE_DIR$/random-strings" />
       <excludeFolder url="file://$MODULE_DIR$/trimIndent" />
+      <excludeFolder url="file://$MODULE_DIR$/typesafe-validator" />
       <excludeFolder url="file://$MODULE_DIR$/worker-threads" />
     </content>
     <orderEntry type="inheritedJdk" />
