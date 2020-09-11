@@ -1,0 +1,16 @@
+{
+  "name": "module-1",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "build:watch": "tsc --build --watch",
+    "start": "pnpm build && node ."
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

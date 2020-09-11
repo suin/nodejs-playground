@@ -1,0 +1,19 @@
+{
+  "name": "pnpm-typescript-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm -r --stream build",
+    "clean": "git clean -Xdf -e '!/.idea/**' -e '!/node_modules' -e '!/node_modules/**'",
+    "clean:dry": "git clean -Xdfn -e '!/.idea/**' -e '!/node_modules' -e '!/node_modules/**'",
+    "format": "prettier --write '{*,**}.{ts,tsx,json}'"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.1",
+    "typescript": "^4.0.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
