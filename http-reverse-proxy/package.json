@@ -1,0 +1,14 @@
+{
+  "name": "http-reverse-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^14.10.1",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
