@@ -36,3 +36,7 @@ The above research result has been explained on my blog post: [Node.js: worker_t
 ## Date & Time
 
 * [Usage example of `light-date`, which is a 157 bytes date formatting library.](./light-date)
+
+## Mikro ORM
+
+* [Mikro ORM getting started](./mikro-orm) - Blog Post: [MikroORMのはじめ方 - インストールからINSERTとSELECTまで - Qiita](https://qiita.com/suin/items/6bb5c957f93e91f75645)
